@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Nikhil",
+    "slug": "nikhil-",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nikhilpadole2003.nikhil"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nikhilpadole2003.nikhil"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b61f54a-11cd-4db6-aa9a-361e5af793df"
+      }
+    },
+    "owner": "nikhilpadole2003",
+    "updates": {
+      "url": "https://u.expo.dev/8b61f54a-11cd-4db6-aa9a-361e5af793df"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
